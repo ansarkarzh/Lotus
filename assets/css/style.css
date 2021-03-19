@@ -169,6 +169,7 @@ body{
 .menu__section{
     font-family: Palatino Linotype Regular, cursive;
     padding-bottom: 40px;
+    margin-bottom: 30px;
 }
 .violet{
     background-color: #7c2f57;  
@@ -354,6 +355,22 @@ body{
     background-size: cover;
 }
 
+.first__dish{
+    background-image: url("../img/first/img-22-min.jpg");
+    background-size: cover;
+}
+
+.pasta{
+    background-image: url("../img/pasta/img-100-min.jpg");
+    background-size: cover;
+}
+
+.fork{
+    background-image: url("../img/hot/img-75-min.jpg    ");
+    background-size: cover;
+}
+
+
 @media screen and (max-width: 1400px){
     .container{
         width: 100%;
@@ -382,6 +399,11 @@ body{
         margin-left: 30px;
 
     }
+    .category__name{
+        font-size: 18px;
+        width: 80%;
+        margin: 20px auto;
+    }
 
     .heading__desc{
         font-size: 20px;
@@ -393,7 +415,7 @@ body{
         flex-direction: column;
     }
     .about__text{
-        font-size: 16px;
+        font-size: 14px;
         width: 100%;
     }
     .about__desc{

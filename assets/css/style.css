@@ -1,6 +1,7 @@
 * {
 	margin: 0;
 	padding: 0;
+    box-sizing: border-box;
 }
 
 body{
@@ -20,8 +21,7 @@ body{
     width: 90%;
 	margin: 0 auto;
 	max-width: 1600px; 
-
-    padding: 30px 0;
+    padding-top: 30px;
 
 }
 .header{
@@ -70,7 +70,7 @@ body{
 
 .heading__block{
     border:rgb(146, 64, 106) groove 7px;
-    height: 120px;
+    height: 15%;
     width: 26%;
     position: absolute;
     margin-left: -13%;
@@ -78,7 +78,7 @@ body{
     left: 50%;
     background: white;
     font-weight: 700;
-    font-size: 50px;
+    font-size: 2.2rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -87,16 +87,14 @@ body{
 
 .heading__desc{
     position: relative;
-    top: 450px;
+    top: 60vh;
     left: 12%;
-    width: 437px;
-    height: 186px;
+    padding: 20px 30px;
     background-color: #671F44;
-    font-size: 40px;
+    font-size: 2rem;
     font-weight: 700;
     color: white;
-    display: flex;
-    align-items: center;
+    width: 30%;
 }
 
 .heading__desc{
@@ -170,8 +168,7 @@ body{
 .menu__section{
     font-family: Palatino Linotype Regular, cursive;
 }
-
-.menu__section.violet{
+.violet{
     background-color: #7c2f57;  
 }
 
@@ -191,7 +188,7 @@ body{
 
 .menu__content{
     display: flex;
-    align-items: center;
+
 }
 
 .menu__images{
@@ -200,6 +197,9 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+.hot__images img{
+    margin: 20px 0;
 }
 
 .items__wrapper{
@@ -218,6 +218,7 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    overflow: auto;
 }
 
 .menu__item{
@@ -227,13 +228,16 @@ body{
 
 .menu__images img{
     width: 100%;
-    margin: 20px 0;
 }
 
 .item__name{
     font-size: 20px;
     font-weight: 500;
 
+}
+
+.item__desc{
+    font-size: 10px;
 }
 
 .sauces{
@@ -278,4 +282,125 @@ body{
 .bottom__image img{
     width: 95%;
     height: 500px;
+}
+
+.cold{
+    overflow: hidden;
+    display: block;
+}
+
+.cold img{
+    height: 1200px;
+    transform: translateX(-20%);
+    width: auto;
+}
+
+.cold__name{
+    border: none;
+    margin-bottom: 0;
+    background-color: rgb(146, 64, 106);
+    color: white
+}
+
+.cold__items{
+    width: 100%;
+    text-align: left;
+    padding-left: 30px;
+    margin: 0;
+    border: none;
+    height: 1150px;
+}
+
+.bird__items{
+    height: 900px;
+}
+
+.salad__wrapper{
+    width: 100%;
+}
+.salad{
+    background-image: url("../img/beef-salad/beef-salad.jpg");
+    background-size: cover;
+}
+
+.salad__name{
+    width: 50%;
+    margin: 20px auto;
+}
+
+
+@media screen and (max-width: 1400px){
+    .container{
+        width: 100%;
+    }
+
+    .header__nav nav ul li a{
+        font-size: 18px;
+        margin-left: 30px;
+
+    }
+
+    .heading__desc{
+        font-size: 20px;
+        width: 60%;
+
+    }
+    .menu__wrapper{
+        width: 100%;
+    }
+    .about__content{
+        width: 100%;
+        flex-direction: column;
+    }
+    .about__text{
+        font-size: 14px;
+        width: 100%;
+    }
+    .about__desc{
+        width: 100%;
+    }
+    .about__image{
+        width: 100%;
+    }
+
+    .menu__items{
+        margin: 0;
+        width: 100%;
+    }
+
+    
+
+    .heading__block{
+        width: 50%;
+        margin-left: -25%;
+
+    }
+
+}
+
+
+@media screen and (max-width: 500px){
+
+    .menu__images{
+        display: none;
+    }
+    .menu__images.bird{
+        display: none;
+    }
+    .menu__wrapper{
+        width: 100%;    
+    }
+    .items__wrapper{
+
+        width: 100%;
+    }
+    .menu__items{
+        height: auto;
+    }
+    .sauces ul{
+        flex-direction: column;
+    }
+    .sauces ul li{
+        margin: 0 20px;
+    }
 }

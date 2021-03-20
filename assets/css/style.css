@@ -970,7 +970,8 @@ body{
 
     .item__weight,
     .divider,
-    .item__price{
+    .item__price,
+    .cur{
         font-size: 9px;
     }
 

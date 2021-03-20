@@ -225,12 +225,13 @@ body{
 }
 
 .menu__item{
-    margin: 20px 0;
+    margin: 10px 5px;
     text-transform: uppercase;
 }
 
 .menu__images img{
     width: 100%;
+    margin: 5px 0;
 }
 
 .item__name{
@@ -574,56 +575,6 @@ body{
 
 
 
-.vodka__content{
-
-    margin: 0;
-    display: flex;
-    justify-content: space-between;
-}
-
-.vodka__name{
-    display: flex;
-    justify-content: space-between;
-    margin-top: 0;
-    text-align: center;
-    width: 100%;
-    border: none;
-    padding: 30px;
-    margin-bottom: 20px;
-    background-color: rgb(146, 64, 106);
-    color: white;
-    font-size: 22px;
-}
-
-.vodka__wrapper{
-    width: 40%;
-}
-
-.vodka__name1{
-
-    text-align: center;
-    text-transform: uppercase;
-    padding: 10px;
-    border: none;
-    margin-bottom: 0;
-    background-color: rgb(146, 64, 106);
-    color: white;
-    margin-bottom: 5px;
-}
-
-.vodka__items{
-    padding: 0;
-    width: 100%;
-    text-align: center;
-    margin: 0px;
-    border: none;
-}
-
-.vodka__item{
-    font-size: 14px;
-    margin: 0;
-    text-align: center;
-}
 
 .vine1{
     background-image: url("../img/vine/vine1.jpg");
@@ -775,6 +726,98 @@ body{
 	padding: 10px 0;
 	margin: 20px auto;
 	width: 100%;
+}
+/* --------------------------------VOOOOOOOOODKA----------------------*/
+.vodka__head{
+    background-color: rgb(146, 64, 106);
+}
+
+.vodka__headinner{
+    width: 80%;
+    margin: 0 auto;
+    font-size: 14px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    align-items: flex-end;
+
+}
+
+.vodka__category{
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+.barnoemenu__category div{
+    font-size: 20px;
+    margin-top: 5px;
+    text-transform: uppercase;
+}
+
+.vodka__content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.vodka__name{
+    font-size: 20px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.vodka__nameinner{
+    width: 70%;
+    text-transform: uppercase;
+    padding: 5px;
+    background-color: rgb(146, 64, 106);
+    color: white;
+}
+
+.vodka__desc{
+    font-size: 15px;
+    padding: 5px;
+    margin: 0 20px;
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.vodka{
+    width: 50%;
+}
+
+.vodka__oneitem{
+    
+    display: flex;
+    justify-content: space-between;
+    margin-top: 7.5px;
+    padding: 5px;
+}
+
+.vodka__items{
+    display: flex;
+    flex-direction: column;
+}
+
+.vodka__item{
+    padding-top: 5px;
+    width: 70%;
+}
+.vodkaitem__desc{
+    text-align: left;
+    margin: 0;
+    width: 100%;
+}
+
+.vodka__price{
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 10px;
+    padding: 5px;
 }
 
 
@@ -998,6 +1041,13 @@ body{
     .drink__items,
     .vine__items{
         padding: 0;
+    }
+    .vodka__content{
+        display: flex;
+        flex-direction: column;
+    }
+    .vodka{
+        width: 100%;
     }
 
 }

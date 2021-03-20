@@ -28,10 +28,10 @@ body{
 .header{
     background-color: rgba(103, 31, 68, 0.7);
     height: 80px;
-    position: fixed;
-    top: 0;
     width: 100%;
     z-index: 5;
+    position: absolute;
+    top: 0;
 }
 .inner__header{
     margin: 0 auto;
@@ -242,6 +242,9 @@ body{
 
 .item__desc{
     font-size: 10px;
+    width: 70%;
+    text-align: center;
+    margin: 0 auto;
 }
 
 .sauces{
@@ -370,6 +373,413 @@ body{
     background-size: cover;
 }
 
+.beer{
+    background: url("../img/beer/beer1.jpg");
+    background-size: cover;
+}
+
+.beer__name{
+    width: 50%;
+    border: none;
+    margin-bottom: 0;
+    background-color: white;
+    color: black;
+    font-size: 22px;
+}
+
+.beer__items{
+    width: 100%;
+    text-align: left;
+    padding-left: 30px;
+    margin: 0px;
+    border: none;
+    
+
+}
+
+.beer__content{
+    flex-direction: column;
+}
+
+.beer__name1{
+    text-align: center;
+    text-transform: uppercase;
+    padding: 10px;
+    border: none;
+    margin-bottom: 0;
+    background-color: rgb(146, 64, 106);
+    color: white;
+
+}
+
+.drink__name{
+    margin-top: 0;
+    width: 100%;
+    border: none;
+    margin-bottom: 0;
+    background-color: rgb(146, 64, 106);
+    color: white;
+    font-size: 22px;
+
+}
+
+.drink__items{
+    padding-top: 0;
+    width: 100%;
+    text-align: center;
+    padding-left: 30px;
+    margin: 0px;
+    border: none;
+}
+
+.defaultdrink__wrapper{
+    height: 100%;
+}
+
+.defaultdrink__items{
+    padding-top: 0;
+    width: 100%;
+    text-align: center;
+    padding-left: 30px;
+    margin: 0px;
+    border: none;
+}
+
+.defaultdrink__name{
+    margin-top: 0;
+    width: 100%;
+    border: none;
+    padding: 30px;
+    margin-bottom: 20px;
+    background-color: rgb(146, 64, 106);
+    color: white;
+    font-size: 22px;
+}
+
+.tea__name{
+    margin-top: 0;
+    width: 100%;
+    border: none;
+    margin-bottom: 0;
+    background-color: rgb(146, 64, 106);
+    color: white;
+    font-size: 22px;
+}
+
+.tea__items{
+    padding-top: 20px;
+    width: 100%;
+    text-align: center;
+    margin: 0px;
+    border: none;
+}
+
+.tea__img img{
+    width: 100%;
+}
+
+
+.dessert__items{
+    padding-top: 20px;
+    width: 100%;
+    text-align: center;
+    margin: 0px;
+    border: none;
+}
+
+.dessert__name{
+    margin-top: 0;
+    width: 100%;
+    border: none;
+    margin-bottom: 0;
+    background-color: rgb(146, 64, 106);
+    color: white;
+    font-size: 22px;
+}
+
+.ice{
+    background-image: url(../img/ice/ice1.jpg); 
+    background-size: cover;
+}
+
+.ice__name{
+    margin-top: 0;
+    width: 100%;
+    border: none;
+    padding: 30px;
+    margin-bottom: 0;
+    background-color: rgb(146, 64, 106);
+    color: white;
+    font-size: 22px;
+}
+
+.ice__items{
+    padding-top: 20px;
+    width: 100%;
+    text-align: center;
+    margin: 0px;
+    border: none;
+}
+
+.pizza__name{
+    margin-top: 0;
+    width: 100%;
+    border: none;
+    padding: 30px;
+    margin-bottom: 0;
+    background-color: rgb(146, 64, 106);
+    color: white;
+    font-size: 22px;
+}
+
+.pizza__items{
+    padding-top: 20px;
+    width: 100%;
+    text-align: center;
+    margin: 0px;
+    border: none;
+}
+
+.bake__name{
+    margin-top: 0;
+    width: 100%;
+    border: none;
+    padding: 30px;
+    margin-bottom: 20px;
+    background-color: rgb(146, 64, 106);
+    color: white;
+    font-size: 22px;
+}
+
+.bake__items{
+    padding-top: 20px;
+    width: 100%;
+    text-align: center;
+    margin: 0px;
+    border: none;
+}
+
+.bake__items:first-child{
+    padding-top: 0;
+}
+
+.bake__content{
+    background-image: url(../img/bake/bake1.jpg);
+    background-size: cover;
+}
+
+
+
+.vodka__content{
+
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.vodka__name{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0;
+    text-align: center;
+    width: 100%;
+    border: none;
+    padding: 30px;
+    margin-bottom: 20px;
+    background-color: rgb(146, 64, 106);
+    color: white;
+    font-size: 22px;
+}
+
+.vodka__wrapper{
+    width: 40%;
+}
+
+.vodka__name1{
+
+    text-align: center;
+    text-transform: uppercase;
+    padding: 10px;
+    border: none;
+    margin-bottom: 0;
+    background-color: rgb(146, 64, 106);
+    color: white;
+    margin-bottom: 5px;
+}
+
+.vodka__items{
+    padding: 0;
+    width: 100%;
+    text-align: center;
+    margin: 0px;
+    border: none;
+}
+
+.vodka__item{
+    font-size: 14px;
+    margin: 0;
+    text-align: center;
+}
+
+.vine1{
+    background-image: url("../img/vine/vine1.jpg");
+    background-size: cover;
+}
+
+.vine2{
+    background-image: url("../img/vine/vine2.jpg");
+    background-size: cover;
+}
+
+.vine__name1{
+    text-align: center;
+    text-transform: uppercase;
+    padding: 10px;
+    border: none;
+    margin-bottom: 0;
+    background-color: rgb(146, 64, 106);
+    color: white;
+    margin-top: 10px;
+}
+
+.vine__wrapper{
+    
+    width: 50%;
+}
+
+.vine__items{
+    width: 100%;
+    text-align: left;
+    padding-left: 30px;
+    margin: 0px;
+    border: none;
+}
+
+.vine__name{
+    width: 50%;
+    border: none;
+}
+
+.pizza{
+    background-image: url(../img/pizza/pizza1.jpg);
+    background-size: cover;
+}
+
+.dessert{
+    background-image: url(../img/dessert/dessert1.jpg);
+    background-size: cover;
+}
+
+.tea{
+    background-image: url(../img/tea/tea2.jpg);
+    background-size: cover;
+}
+
+.vine__content{
+    flex-direction: column;
+}
+
+.conflict__items{
+    padding-top: 0px;
+    width: 100%;
+    text-align: center;
+    margin: 0px;
+    border: none;
+}
+
+.conflict__name{
+    
+    border: none;
+    background-color: rgb(146, 64, 106);
+    width: 100%;
+    color: white;
+}
+
+.conflict__content{
+    background-image: url("../img/conflict/conflict1.jpg");
+    background-size: cover;
+}
+
+
+
+.menu__wrapper.horizontal .menu__content{
+    flex-direction: column;
+}
+
+.menu__wrapper.horizontal .menu__content .menu__images{
+    width: 100%;
+}
+
+.menu__wrapper.horizontal .menu__content .menu__images img{
+    transform: translateX(0);
+    transform: translateY(-20%);
+}
+
+.menu__wrapper.horizontal .menu__content .items__wrapper{
+    width: 100%;
+    height: auto;
+}
+
+.menu__wrapper.horizontal .menu__content .items__wrapper .menu__items{
+    height: auto;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+
+/* ----------------------------------------------------------- слайдер -----------------------------------*/
+.nav__slider{
+    margin: 0 auto -20px;
+	position: sticky;
+	top: 0px;
+	z-index: 10000;
+	background: rgba(103, 31, 68, 1);
+}
+
+.glide__slide{
+	text-align: center;
+	padding: 5px 0;
+}
+
+
+@media screen and (min-width: 1920px){
+    .glide__track{
+        display: flex;
+        justify-content: center;
+    }
+    
+}
+
+
+.glide__slides li a{
+	text-decoration: none;
+	font-size: 14px;
+	color: white;
+    font-weight: 700;
+	text-align: center; 
+	width: 100%;
+
+}
+
+.glide__slides li a:hover{
+	color: rgb(161, 71, 118);
+}
+
+.glide{
+	padding: 10px 0;
+	margin: 20px auto;
+	width: 100%;
+}
+
+@media screen and (max-width: 500px){
+	.glide__slides li a{
+		font-size: 12px;
+	
+	}
+}
+
 
 @media screen and (max-width: 1400px){
     .container{
@@ -391,9 +801,13 @@ body{
 
 @media screen and (max-width: 500px){
     .fishsalad,
-    .salad{
+    .salad,
+    .first__dish,
+    .pasta,
+    .back{
         background: white;
     }
+
     .header__nav nav ul li a{
         font-size: 18px;
         margin-left: 30px;
@@ -428,6 +842,7 @@ body{
     .menu__items{
         margin: 0;
         width: 100%;
+        border: none;
     }
 
     
@@ -453,11 +868,22 @@ body{
     }
     .menu__items{
         height: auto;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+    .menu__item{
+        width: 48%;
+    }
+    .sauces{
+        border: none;
     }
     .sauces ul{
         flex-direction: column;
     }
     .sauces ul li{
         margin: 0 20px;
+    }
+    .defaultdrink__items{
+        padding: 0;
     }
 }

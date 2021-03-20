@@ -1050,4 +1050,9 @@ body{
         width: 100%;
     }
 
+    .vodkaitem__price,
+    .vodkaitemprice{
+        font-size: 12px;
+    }
+
 }

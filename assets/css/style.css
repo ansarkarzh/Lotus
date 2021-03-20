@@ -18,6 +18,7 @@ body{
     src: url("./Palatino.ttf"); /* Путь к файлу со шрифтом */
 }
 
+
 .container{
     width: 90%;
 	margin: 0 auto;
@@ -817,6 +818,11 @@ body{
     justify-content: space-between;
     margin: 0 10px;
     padding: 5px;
+}
+
+.vine__items .menu__item .item__desc{
+    margin-left: 0;
+
 }
 
 

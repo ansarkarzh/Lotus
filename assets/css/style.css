@@ -691,6 +691,12 @@ body{
 	top: 0px;
 	z-index: 10000;
 	background: rgba(103, 31, 68, 1);
+
+}
+
+.glide{
+    max-width: 1920px;
+    margin: 0 auto;
 }
 
 .glide__slide{
@@ -699,13 +705,6 @@ body{
 }
 
 
-@media screen and (min-width: 2000px){
-    .glide__track{
-        display: flex;
-        justify-content: center;
-    }
-    
-}
 
 
 .glide__slides li a{

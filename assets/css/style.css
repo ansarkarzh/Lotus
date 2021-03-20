@@ -22,7 +22,7 @@ body{
     width: 90%;
 	margin: 0 auto;
 	max-width: 1600px; 
-    padding-top: 30px;
+    padding-top: 8px;
 
 }
 .header{
@@ -168,7 +168,6 @@ body{
 
 .menu__section{
     font-family: Palatino Linotype Regular, cursive;
-    padding-bottom: 40px;
     margin-bottom: 30px;
 }
 .violet{
@@ -243,7 +242,6 @@ body{
 .item__desc{
     font-size: 10px;
     width: 70%;
-    text-align: center;
     margin: 0 auto;
 }
 
@@ -297,7 +295,7 @@ body{
 }
 
 .cold img{
-    height: 1200px;
+    height: 1150px;
     transform: translateX(-20%);
     width: auto;
 }
@@ -316,6 +314,9 @@ body{
     margin: 0;
     border: none;
     height: 1150px;
+}
+.cold__items .item__desc{
+    margin-left: 0;
 }
 
 .bird__items{
@@ -395,6 +396,9 @@ body{
     border: none;
     
 
+}
+.cold__items .item__desc{
+    margin-left: 0;
 }
 
 .beer__content{
@@ -744,7 +748,7 @@ body{
 }
 
 
-@media screen and (min-width: 1920px){
+@media screen and (min-width: 2000px){
     .glide__track{
         display: flex;
         justify-content: center;
@@ -773,6 +777,7 @@ body{
 	width: 100%;
 }
 
+
 @media screen and (max-width: 500px){
 	.glide__slides li a{
 		font-size: 12px;
@@ -800,18 +805,19 @@ body{
 
 
 @media screen and (max-width: 500px){
-    .fishsalad,
+    
+    /*.fishsalad,
     .salad,
     .first__dish,
     .pasta,
     .back{
         background: white;
-    }
+    }*/
 
     .header__nav nav ul li a{
         font-size: 18px;
         margin-left: 30px;
-
+        margin-right: 10px;
     }
     .category__name{
         font-size: 18px;
@@ -838,10 +844,9 @@ body{
     .about__image{
         width: 100%;
     }
-
+    
     .menu__items{
         margin: 0;
-        width: 100%;
         border: none;
     }
 
@@ -853,27 +858,79 @@ body{
 
     }
 
-    .menu__images{
-        display: none;
+    
+    .menu__images,
+    .menu__images.hot__images{
+        overflow: hidden;
+        display: block;
     }
-    .menu__images.bird{
-        display: none;
+    
+    .menu__images img{
+        height: 240px;
+        width: auto;
+        transform: translateX(-20%);
+    }
+    .menu__images.bird img{
+        height: 700px;
+        width: auto;
+        transform: translateX(-40%);
+    }
+    .menu__items.bird__items{
+        height: 700px;
+    }
+
+    .menu__item{
+        margin: 5px 0;
+    }
+
+    .cold img{
+        height: 1230px;;
+    }
+
+    .menu__items.cold__items{
+        height: 1100px;
     }
     .menu__wrapper{
         width: 100%;    
     }
     .items__wrapper{
-
-        width: 100%;
+        width: 50%;
+        margin: 0;
+        padding: 0;
     }
+
     .menu__items{
         height: auto;
+        width: 100%;
+        padding-top: 0;
+        margin-bottom: 20px;
+        /*
         flex-wrap: wrap;
+        flex-direction: row;*/
+    }
+    .back{
+        background-position: 40%;
+    }
+    .item__name{
+        font-size: 13px;
+    }
+    .category__name,
+    .category__name.salad__name{
+        font-size: 14px;
+    }
+
+
+    .item__weight,
+    .divider,
+    .item__price{
+        font-size: 9px;
+    }
+
+    .reverse{
         flex-direction: row;
     }
-    .menu__item{
-        width: 48%;
-    }
+
+
     .sauces{
         border: none;
     }
@@ -886,4 +943,61 @@ body{
     .defaultdrink__items{
         padding: 0;
     }
+
+    .menu__items.bird__items.bird__salad-items{
+        height: 600px;
+        padding-bottom: 0   ;
+    }
+
+    .menu__wrapper.horizontal .menu__content .menu__images img{
+       
+        transform:translate(-25%, -25%)
+        
+    }
+    .menu__wrapper.horizontal .menu__content .menu__images{
+        width: 100%;
+        height: 300px;
+    }
+
+    .hot__images img{
+        height: 231px;
+        transform: translate(-20%, 0);
+    }
+
+    .hot__images3{
+        display: block;
+        overflow: hidden;
+    }
+
+    .hot__images3 img{
+        height: 450px;
+        transform: translate(-20%, 0);
+    }
+
+    .hot__images3 img:first-of-type{
+        transform: translate(-30%, 0);
+    }
+
+    .menu__images.hot__images3.icecream img{
+        height: 300px;
+    }
+
+    .menu__images.hot__images3.icecream img:nth-child(2){
+        transform:translate(0, 0);
+        width: 100%;
+    }
+
+    .tea__image img{
+        height: 700px;
+    }
+
+    .menu__section.vine2.back{
+        background-position: 7%;
+    }
+
+    .drink__items,
+    .vine__items{
+        padding: 0;
+    }
+
 }

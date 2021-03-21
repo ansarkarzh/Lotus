@@ -15,7 +15,7 @@ body{
 
 @font-face {
     font-family: Palatino Linotype Regular; /* Гарнитура шрифта */
-    src: url("./Palatino.ttf"); /* Путь к файлу со шрифтом */
+    src: url("../Palatino.ttf"); /* Путь к файлу со шрифтом */
 }
 
 

@@ -10,7 +10,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="stylesheet" href="assets/css/glide.core.css">
     <link href="https://fonts.googleapis.com/css2?family=Italianno&display=swap" rel="stylesheet">
-    <title>Document</title>
+    <title>Кафе Лотос | Павлодар</title>
+    <meta name="description" content="Уютное кафе в центре города Павлодар - Лотос. Лучше шашлыки и блюда европейской кухни.">
+	<meta name="keywords" content="Лотос, Лотос Павлодар, Лотус, Лотус Павлодар, шашлыки, шашлык, Павлодар, шашлык Павлодар">
 </head>
 <body>
 
@@ -96,6 +98,27 @@
             </div>
         </div>
 </div>
+<script src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
+
+	<script>
+		const pageWidth = document.documentElement.scrollWidth
+		const perViewNum = pageWidth*0.9 / 170
+		new Glide('.glide', {
+			perView: perViewNum,
+			touchRatio: 0.7,
+			dragThreshold: 20,
+			animationDuration: 200,
+            bound: true,
+			gap: 2,
+			touchAngle: 70,
+			breakpoints: {
+				500: {
+					perView: perViewNum * 170 / 130
+				}
+
+			}
+		}).mount()
+	</script>
 <a href="#" name="0"></a>
     <section class="menu__section violet">
 
@@ -1802,26 +1825,6 @@
         </div>
     </section>
 
-    <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
-
-	<script>
-		const pageWidth = document.documentElement.scrollWidth
-		const perViewNum = pageWidth*0.9 / 170
-		new Glide('.glide', {
-			perView: perViewNum,
-			touchRatio: 0.7,
-			dragThreshold: 20,
-			animationDuration: 200,
-            bound: true,
-			gap: 2,
-			touchAngle: 70,
-			breakpoints: {
-				500: {
-					perView: perViewNum * 170 / 130
-				}
-
-			}
-		}).mount()
-	</script>
+    
 </body>
 </html>

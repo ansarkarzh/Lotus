@@ -1046,7 +1046,7 @@ body{
 
     .drink__items,
     .vine__items{
-        padding: 0;
+        padding: 0 0 0 10px;
     }
     .vodka__content{
         display: flex;

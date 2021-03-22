@@ -869,7 +869,8 @@ body{
     }
     .category__name{
         font-size: 18px;
-        width: 80%;
+        width: auto;
+        padding: 10px;
         margin: 20px auto;
     }
 
